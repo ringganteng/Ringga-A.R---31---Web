@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Warungku Yang Sederhana</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/css/lightbox.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/js/lightbox-plus-jquery.min.js"></script>
+        <link rel="stylesheet" href="Style.css">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark main-color">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <a class="navbar-brand me-auto" href="#">BJR</a>
+                    <ul class="navbar-nav">
+                        <li class="nav-item me-5">
+                        <a class="nav-link" aria-current="page" href="Frontend-Bootstrap.html">Home</a>
+                        </li>
+                        <li class="nav-item me-5">
+                        <a class="nav-link active" href="">Produk</a>
+                        </li>
+                        <li class="nav-item me-5">
+                        <a class="nav-link" href="">Promo</a>
+                        </li>
+                        <li class="nav-item me-5">
+                        <a class="nav-link" href=""><i class="bi bi-cart"></i> Tambahan </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid banner align-items-center d-flex justify-content-center">
+        <div class="container">
+            <h1 class="text-light text-center display-5 mb-3">Selamat Datang Di BJR</h1>
+            <h2 class="text-light text-center display-6 mb-4">Mau Pesan Makanan Tambahan Apa?</h2>
+            <div class="col-md-8 offset-md-2">
+                <div class="input-group input-group-lg mt-5">
+                    <select class="form-select" id="inputGroupSelect04">
+                        <option selected>Pilih Makanan Tambahan</option>
+                        <option value="1">Jeroan</option>
+                        <option value="2">Daging Ayam</option>
+                        <option value="3">Protein</option>
+                        <option value="4">Seafood</option>
+                    </select>
+                        <div class="input-group-append">
+                            <button class="btn btn-lg btn-warning text-light" type="button">Telusuri</button>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section id="Product">
+        <div class="container-fluid py-5">
+        <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-lg-3 mb-5">
+                <h4 class="mb-4">Kategori</h4>
+                <ul class="list-group">
+                    <li class="list-group-item active" aria-current="true">Menu</li>
+                    <li class="list-group-item">Jeroan</li>
+                    <li class="list-group-item">Daging Ayam</li>
+                    <li class="list-group-item">Protein</li>
+                    <li class="list-group-item">Seafood</li>
+                </ul>
+            </div>
+
+            <div class="col-md-8 col-lg-9">
+                <h4 class="text-center mb-2">Semua Produk</h4>
+                <div class="row">
+                    <div class="card h-100 m-3 p-0" style="width: 18rem;">
+                        <a href="src/img/hatipela.jfif" data-lightbox="gallery">
+                            <img src="src/img/hatipela.jfif" class="card-img-top img-fluid" style="height: 250px; object-fit: cover;" alt="...">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title text-center text-warning">Hati / Ampela</h5>
+                            <p class="card-text">Ampela bumbu gurih pedas dengan tekstur kenyal dan empuk, dimasak dengan rempah pilihan. Cocok sebagai lauk pendamping nasi hangat.</p>
+                            <h4 class="text-center text-success mb-3">Rp. 10.000</h4>
+
+                            <div class="dropdown text-center">
+                                <button class="btn btn-outline-warning dropdown-toggle w-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">Selengkapnya</button>
+                            
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="Detail.html" >Lihat</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Pesan</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card h-100 m-3 p-0" style="width: 18rem;">
+                        <a href="src/img/sayap.jfif" data-lightbox="gallery">
+                            <img src="src/img/sayap.jfif" class="card-img-top img-fluid" style="height: 250px; object-fit: cover;" alt="...">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title text-center text-warning">Sayap Ayam</h5>
+                            <p class="card-text">Sayap ayam gurih dan empuk, dimasak dengan bumbu pilihan sehingga rasanya lezat dan cocok dimakan dengan nasi hangat.</p>
+                            <h4 class="text-center text-success mb-3">Rp. 8.000</h4>
+                            
+                            <div class="dropdown text-center">
+                                <button class="btn btn-outline-warning dropdown-toggle w-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">Selengkapnya</button>
+                            
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="Detail.html" >Lihat</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Pesan</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card h-100 m-3 p-0" style="width: 18rem;">
+                        <a href="src/img/paha 4yam.jfif" data-lightbox="gallery">
+                            <img src="src/img/paha 4yam.jfif" class="card-img-top img-fluid" style="height: 250px; object-fit: cover;" alt="...">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title text-center text-warning">Paha Ayam</h5>
+                            <p class="card-text">Paha ayam empuk dan gurih, dimasak dengan bumbu pilihan sehingga rasanya lezat dan cocok disantap dengan nasi hangat.</p>
+                            <h4 class="text-center text-success mb-3">Rp. 12.000</h4>
+                            
+                            <div class="dropdown text-center">
+                                <button class="btn btn-outline-warning dropdown-toggle w-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">Selengkapnya</button>
+                            
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="Detail.html" >Lihat</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Pesan</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card h-100 m-3 p-0" style="width: 18rem;">
+                        <a href="src/img/kepala.jfif" data-lightbox="gallery">
+                            <img src="src/img/kepala.jfif" class="card-img-top img-fluid" style="height: 250px; object-fit: cover;" alt="...">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title text-center text-warning">Kepala Ayam</h5>
+                            <p class="card-text">Kepala ayam gurih dan empuk, dimasak dengan bumbu rempah pedas yang meresap. Cocok sebagai lauk atau camilan makan.</p>
+                            <h4 class="text-center text-success mb-3">Rp. 5.000</h4>
+                            
+                            <div class="dropdown text-center">
+                                <button class="btn btn-outline-warning dropdown-toggle w-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">Selengkapnya</button>
+                            
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="Detail.html" >Lihat</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Pesan</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card h-100 m-3 p-0" style="width: 18rem;">
+                        <a href="src/img/ceker.jfif" data-lightbox="gallery">
+                            <img src="src/img/ceker.jfif" class="card-img-top img-fluid" style="height: 250px; object-fit: cover;" alt="...">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title text-center text-warning">Ceker Ayam</h5>
+                            <p class="card-text">Ceker ayam dimasak sampai empuk dengan bumbu pedas gurih yang meresap hingga ke tulang. Cocok untuk pecinta makanan pedas.</p>
+                            <h4 class="text-center text-success mb-3">Rp. 6.000</h4>
+                            
+                            <div class="dropdown text-center">
+                                <button class="btn btn-outline-warning dropdown-toggle w-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">Selengkapnya</button>
+                            
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="Detail.html" >Lihat</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Pesan</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card h-100 m-3 p-0" style="width: 18rem;">
+                        <a href="src/img/telur.jfif" data-lightbox="gallery">
+                            <img src="src/img/telur.jfif" class="card-img-top img-fluid" style="height: 250px; object-fit: cover;" alt="...">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title text-center text-warning">Telur Ceplok / Dadar</h5>
+                            <p class="card-text">Telur ceplok matang sempurna dengan kuning telur yang lembut dan putih telur yang gurih. Cocok disantap hangat.</p>
+                            <h4 class="text-center text-success mb-3">Rp. 15.000</h4>
+                            
+                            <div class="dropdown text-center">
+                                <button class="btn btn-outline-warning dropdown-toggle w-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">Selengkapnya</button>
+                            
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="Detail.html" >Lihat</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Pesan</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card h-100 m-3 p-0" style="width: 18rem;">
+                        <a href="src/img/sate.jfif" data-lightbox="gallery">
+                            <img src="src/img/sate.jfif" class="card-img-top img-fluid" style="height: 250px; object-fit: cover;" alt="...">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title text-center text-warning">Sate Usus</h5>
+                            <p class="card-text">KUsus ayam dibersihkan dan ditusuk rapi, lalu dibakar dengan bumbu khas yang gurih dan sedikit manis. Cocok dinikmati hangat sebagai cemilan atau lauk tambahan nasi.</p>
+                            <h4 class="text-center text-success mb-3">Rp. 3.500</h4>
+                            
+                            <div class="dropdown text-center">
+                                <button class="btn btn-outline-warning dropdown-toggle w-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">Selengkapnya</button>
+                            
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="Detail.html" >Lihat</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Pesan</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card h-100 m-3 p-0" style="width: 18rem;">
+                        <a href="src/img/urang.jfif" data-lightbox="gallery">
+                            <img src="src/img/urang.jfif" class="card-img-top img-fluid" style="height: 250px; object-fit: cover;" alt="...">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title text-center text-warning">Udang</h5>
+                            <p class="card-text">Udang segar digoreng renyah atau dimasak dengan bumbu pedas manis yang meresap. Rasanya gurih, juicy, dan cocok disantap dengan nasi hangat atau sebagai cemilan spesial.</p>
+                            <h4 class="text-center text-success mb-3">Rp. 20.000</h4>
+                            
+                            <div class="dropdown text-center">
+                                <button class="btn btn-outline-warning dropdown-toggle w-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">Selengkapnya</button>
+                            
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="Detail.html" >Lihat</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Pesan</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card h-100 m-3 p-0" style="width: 18rem;">
+                        <a href="src/img/tahu.jfif" data-lightbox="gallery">
+                            <img src="src/img/tahu.jfif" class="card-img-top img-fluid" style="height: 250px; object-fit: cover;" alt="...">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title text-center text-warning">Tahu Bakso</h5>
+                            <p class="card-text">Tahu isi bakso daging pilihan, digoreng hingga kecokelatan. Rasanya gurih dan lembut di dalam, cocok disantap hangat sebagai lauk atau camilan, serta harga yang terjangkau.</p>
+                            <h4 class="text-center text-success mb-3">Rp. 7.000</h4>
+                            
+                            <div class="dropdown text-center">
+                                <button class="btn btn-outline-warning dropdown-toggle w-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">Selengkapnya</button>
+                            
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="Detail.html" >Lihat</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Pesan</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center mt-4 text-center">
+                    <li class="page-item">
+                    <a class="page-link" href="#">BJR</a>
+                    </li>
+
+                    <li class="page-item">
+                    <a class="page-link" href="#">1</a>
+                    </li>
+
+                    <li class="page-item">
+                    <a class="page-link" href="#">2</a>
+                    </li>
+
+                    <li class="page-item">
+                    <a class="page-link" href="#">3</a>
+                    </li>
+
+                    <li class="page-item">
+                    <a class="page-link" href="#">Selanjutnya</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+        </div>
+        </div>
+    </section>
+
+
+        <script src="/dist/js/lightbox-plus-jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </body>
+    </html>
