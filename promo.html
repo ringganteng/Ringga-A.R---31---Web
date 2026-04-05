@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>promo</title>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+                integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+                crossorigin="anonymous"></script>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/css/lightbox.min.css">
+            <script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/js/lightbox-plus-jquery.min.js"></script>
+            <link rel="stylesheet" href="Style.css">
+        </head>
+
+        <body>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark main-color">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <a class="navbar-brand me-auto" href="#">Warungku Yang Sederhana</a>
+                        <ul class="navbar-nav">
+                            <li class="nav-item me-5">
+                                <a class="nav-link" aria-current="page" href="Frontend-Bootstrap.html">Home</a>
+                            </li>
+                            <li class="nav-item me-5">
+                                <a class="nav-link" href="Product.html">Produk</a>
+                            </li>
+                            <li class="nav-item me-5">
+                                <a class="nav-link active" href="Promo.html">Promo</a>
+                            </li>
+                            <li class="nav-item me-5">
+                                <a class="nav-link" href="Cart.html"><i class="bi bi-cart"></i> Keranjang</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="container-fluid banner align-items-center d-flex justify-content-center">
+                <div class="container">
+                    <h1 class="text-light text-center display-5 mb-3">Selamat Datang Di BJR</h1>
+                    <h2 class="text-light text-center display-6 mb-4">Bakmie Jawa Ringganteng</h2>
+                    <div class="col-md-8 offset-md-2">
+                        <div class="input-group input-group-lg mt-5">
+                            <select class="form-select" id="inputGroupSelect04">
+                                <option selected>Pilih Menu</option>
+                                <option value="1">Makanan Jawa</option>
+                                <option value="2">Makanan Rumahan</option>
+                                <option value="3">Lauk Tambahan</option>
+                                <option value="4">Minuman</option>
+                            </select>
+                            <div class="input-group-append">
+                                <button class="btn btn-lg btn-warning text-light" type="button">Telusuri</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid py-5">
+                <div class="container">
+                    <div class="row justify-content-center mb-4">
+                        <div class="col-sm-4 col-md-3 col-lg-2 mb-2">
+                            <div class="btn btn-outline-warning w-100 fs-5 filter-btn active" data-target="SemuaPromo">Semua
+                                Promo</div>
+                        </div>
+                        <div class="col-sm-4 col-md-3 col-lg-2 mb-2">
+                            <div class="btn btn-outline-warning w-100 fs-5 filter-btn" data-target="PromoDiskon">Promo Diskon
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-md-3 col-lg-2 mb-2">
+                            <div class="btn btn-outline-warning w-100 fs-5 filter-btn" data-target="PromoBonus">Promo Bonus
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="SemuaPromo" class="promo-section">
+                <div class="row justify-content-center">
+                    <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                        <div class="card">
+                            <a href="src/img/bakmie nyemek.jfif" data-lightbox="promo" data-title="Nyemek">
+                                <img src="src/img/bakmie nyemek.jfif" alt="" class="card-img-top img-fluid img-thumbnail w-100"
+                                    style="height: 400px; object-fit: cover;">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Bakmie Nyemek</h5>
+                                <p class="card-text">Penawaran spesial : Nikmati Bakmie Nyemek Dengan Sedikit Kuah.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                        <div class="card">
+                            <a href="src/img/Bakmie Goreng.jfif" data-lightbox="promo" data-title="Goreng">
+                                <img src="src/img/Bakmie Goreng.jfif" alt="" class="card-img-top img-fluid img-thumbnail w-100"
+                                    style="height: 400px; object-fit: cover;">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Bakmie Goreng</h5>
+                                <p class="card-text">Penawaran spesial : Nikmati Bakmie Goreng dengan sedikit bumbu kemiri.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                        <div class="card">
+                            <a href="src/img/bakmie godhog.jfif" data-lightbox="promo" data-title="Godhog">
+                                <img src="src/img/bakmie godhog.jfif" alt="" class="card-img-top img-fluid img-thumbnail w-100"
+                                    style="height: 400px; object-fit: cover;">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Bakmie Godhog</h5>
+                                <p class="card-text">Penawaran spesial : Nikmati Bakmie Godhog dengan kegurihan.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                        <div class="card">
+                            <a href="src/img/es teh" data-lightbox="promo" data-title="Teh">
+                                <img src="src/img/es teh" alt="" class="card-img-top img-fluid img-thumbnail w-100"
+                                    style="height: 400px; object-fit: cover;">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Es Teh</h5>
+                                <p class="card-text">Nikmati minuman yang menyegarkan dan cocok dikonsumsi di setiap saat.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                        <div class="card">
+                            <a href="src/img/ceker.jfif" data-lightbox="promo" data-title="Ceker">
+                                <img src="src/img/ceker.jfif" alt="" class="card-img-top img-fluid img-thumbnail w-100"
+                                    style="height: 400px; object-fit: cover;">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Ceker Ayam</h5>
+                                <p class="card-text">Ceker ayam dimasak sampai empuk dengan bumbu pedas gurih yang meresap hingga ke tulang.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                        <div class="card">
+                            <a href="src/img/paha 4yam.jfif" data-lightbox="promo" data-title="Paha">
+                                <img src="src/img/paha 4yam.jfif" alt="" class="card-img-top img-fluid img-thumbnail w-100"
+                                    style="height: 400px; object-fit: cover;">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Paha Ayam</h5>
+                                <p class="card-text">Paha ayam empuk dan gurih, dimasak dengan bumbu pilihan sehingga rasanya lezat dan cocok disantap dengan nasi hangat.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                        <div class="card">
+                            <a href="src/img/sayap.jfif" data-lightbox="promo" data-title="Sayap">
+                                <img src="src/img/sayap.jfif" alt="" class="card-img-top img-fluid img-thumbnail w-100"
+                                    style="height: 400px; object-fit: cover;">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Sayap Ayam</h5>
+                                <p class="card-text">Sayap ayam gurih dan empuk, dimasak dengan bumbu pilihan sehingga rasanya lezat dan cocok dimakan dengan nasi hangat.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                        <div class="card">
+                            <a href="src/img/jus alpukat.jfif" data-lightbox="promo" data-title="Jus">
+                                <img src="src/img/jus alpukat.jfif" alt="" class="card-img-top img-fluid img-thumbnail w-100"
+                                    style="height: 400px; object-fit: cover;">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Jus Alpukat</h5>
+                                <p class="card-text">Nikmati Minuman yang banyak manfaatnya.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="PromoDiskon" class="promo-section" style="display: none;">
+                <div class="row justify-content-center">
+                    <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                        <div class="card">
+                            <a href="src/img/Bakmie Goreng.jfif" data-lightbox="promo" data-title="Goreng">
+                                <img src="src/img/Bakmie Goreng.jfif" alt="" class="card-img-top img-fluid img-thumbnail w-100"
+                                    style="height: 400px; object-fit: cover;">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Bakmie Goreng</h5>
+                                <p class="card-text">Nikmati Bakmie Goreng dengan sedikit bumbu kemiri.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                        <div class="card">
+                            <a href="src/img/bakmie godhog.jfif" data-lightbox="promo" data-title="Godhog">
+                                <img src="src/img/bakmie godhog.jfif" alt="" class="card-img-top img-fluid img-thumbnail w-100"
+                                    style="height: 400px; object-fit: cover;">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Bakmie Godhog</h5>
+                                <p class="card-text">Nikmati Bakmie Godhog dengan kegurihan.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                        <div class="card">
+                            <a href="src/img/es teh" data-lightbox="promo" data-title="Teh">
+                                <img src="src/img/es teh" alt="" class="card-img-top img-fluid img-thumbnail w-100"
+                                    style="height: 400px; object-fit: cover;">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Es Teh</h5>
+                                <p class="card-text">Nikmati minuman yang menyegarkan dan cocok dikonsumsi di setiap saat.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                        <div class="card">
+                            <a href="src/img/jus alpukat.jfif" data-lightbox="promo" data-title="Jus">
+                                <img src="src/img/jus alpukat.jfif" alt="" class="card-img-top img-fluid img-thumbnail w-100"
+                                    style="height: 400px; object-fit: cover;">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Jus Alpukat</h5>
+                                <p class="card-text">Nikmati Minuman yang banyak manfaatnya.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="PromoBonus" class="promo-section" style="display: none;">
+                <div class="row justify-content-center">
+                    <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                        <div class="card">
+                            <a href="src/img/paha 4yam.jfif" data-lightbox="promo" data-title="Paha">
+                                <img src="src/img/paha 4yam.jfif" alt="" class="card-img-top img-fluid img-thumbnail w-100"
+                                    style="height: 400px; object-fit: cover;">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Paha Ayam</h5>
+                                <p class="card-text">Paha ayam empuk dan gurih, dimasak dengan bumbu pilihan sehingga rasanya lezat dan cocok disantap dengan nasi hangat.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                        <div class="card">
+                            <a href="src/img/sayap.jfif" data-lightbox="promo" data-title="Sayap">
+                                <img src="src/img/sayap.jfif" alt="" class="card-img-top img-fluid img-thumbnail w-100"
+                                    style="height: 400px; object-fit: cover;">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Sayap Ayam</h5>
+                                <p class="card-text">Sayap ayam gurih dan empuk, dimasak dengan bumbu pilihan sehingga rasanya lezat dan cocok dimakan dengan nasi hangat.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                        <div class="card">
+                            <a href="src/img/ceker.jfif" data-lightbox="promo" data-title="Ceker">
+                                <img src="src/img/ceker.jfif" alt="" class="card-img-top img-fluid img-thumbnail w-100"
+                                    style="height: 400px; object-fit: cover;">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Ceker Ayam</h5>
+                                <p class="card-text">Ceker ayam dimasak sampai empuk dengan bumbu pedas gurih yang meresap hingga ke tulang.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                        <div class="card">
+                            <a href="src/img/bakmie nyemek.jfif" data-lightbox="promo" data-title="Nyemek">
+                                <img src="src/img/bakmie nyemek.jfif" alt="" class="card-img-top img-fluid img-thumbnail w-100"
+                                    style="height: 400px; object-fit: cover;">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Bakmie Nyemek</h5>
+                                <p class="card-text">Nikmati Bakmie Nyemek Dengan Sedikit Kuah.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid py-5 footer">
+                <div class="container">
+
+
+                    <h5 class="text-center text-light mb-3">Ikuti Kami</h5>
+
+                    <div class="d-flex justify-content-center mb-5" style="gap: 70px">
+                        <a href="https://www.facebook.com/username" target="_blank" class="social-icon">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/manutd?igsh=YnZyNWpkZW1kNDBh" target="_blank" class="social-icon">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="https://x.com/username" target="_blank" class="social-icon">
+                            <i class="bi bi-twitter-x"></i>
+                        </a>
+                        <a href="https://youtube.com/@attahalilintar?si=9Q_VtwLdFiXfuBfG" target="_blank" class="social-icon">
+                            <i class="bi bi-youtube"></i>
+                        </a>
+                    </div>
+
+                    <!-- Subscribe -->
+                    <h5 class="text-center text-light mb-1">Subscribe</h5>
+                    <p class="text-center text-white mb-3">Untuk informasi tentang promo dan penawaran spesial !</p>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-6">
+                            <div class="input-group">
+                                <input type="email" class="form-control" placeholder="Ketikkan Email">
+                                <button class="btn btn-warning text-light">Subscribe</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <footer class="bg-dark text-light py-4">
+                <div class="container">
+
+                    <div class="row text-center text-md-start">
+
+                        <div class="col-md-4 mb-3 mb-md-0">
+                            <h5 class="fw-bold">BakJaw</h5>
+                            <p class="text-text-white small">Tempat makan enak, nyaman, dan terjangkau untuk semua kalangan.</p>
+                        </div>
+
+                        <div class="col-md-4 mb-3 mb-md-0">
+                            <h6 class="fw-bold mb-3">Navigasi</h6>
+                            <ul class="list-unstyled">
+                                <li><a href="Frontend-Bootstrap.html" class="text-white text-decoration-none">index</a></li>
+                                <li><a href="index.html" class="text-white text-decoration-none">produk</a></li>
+                                <li><a href="promo.html" class="text-white text-decoration-none">promo</a></li>
+                                <li><a href="keranjang.html" class="text-white text-decoration-none">keranjang</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-4">
+                            <h6 class="fw-bold mb-3">MUSANKINK</h6>
+                            <ul class="list-unstyled text-white small">
+                                <li class="mb-1"><i class="bi bi-geo-alt-fill me-2"></i> Jl. Kerajaan Pulorejo RT.05 RW.01</li>
+                                <li class="mb-1"><i class="bi bi-telephone-fill me-2"></i>0888 1927 1945</li>
+                                <li><i class="bi bi-envelope-fill me-2"></i> info@BJR.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr class="border-secondary mt-4 mb-3">
+                    <p class="text-center text-white small mb-0">
+                        &copy; 2023 Kerajaan Pulorejo aman sejahtera. Kebebasan berkuliner
+                    </p>
+                </div>
+            </footer>
+
+            <script>
+                const filterBtns = document.querySelectorAll(".filter-btn");
+                const sections = ["SemuaPromo", "PromoDiskon", "PromoBonus"];
+
+                filterBtns.forEach(function (btn) {
+                    btn.addEventListener("click", function () {
+                        var target = btn.getAttribute("data-target");
+
+                        // reset tombol aktif
+                        filterBtns.forEach(function (b) {
+                            b.classList.remove("active");
+                        });
+                        btn.classList.add("active");
+
+                        // tampilkan section sesuai target
+                        sections.forEach(function (id) {
+                            var el = document.getElementById(id);
+
+                            if (id === target) {
+                                el.style.display = "block";
+
+                                // trigger animasi ulang
+                                el.classList.remove("promo-section");
+                                void el.offsetWidth;
+                                el.classList.add("promo-section");
+                            } else {
+                                el.style.display = "none";
+                            }
+                        });
+                    });
+                });
+            </script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+            <script src="/dist/js/lightbox-plus-jquery.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+                crossorigin="anonymous"></script>
+        </body>
+    </html>
