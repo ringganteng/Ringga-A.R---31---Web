@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>keranjang</title>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/css/lightbox.min.css">
+            <script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/js/lightbox-plus-jquery.min.js"></script>
+            <link rel="stylesheet" href="Style.css">
+        </head>
+
+        <body>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark main-color">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <a class="navbar-brand me-auto" href="#">Warungku Yang Sederhana</a>
+                        <ul class="navbar-nav">
+                            <li class="nav-item me-5">
+                            <a class="nav-link" aria-current="page" href="Frontend-Bootstrap.html">Home</a>
+                            </li>
+                            <li class="nav-item me-5">
+                            <a class="nav-link" href="index.html">index</a>
+                            </li>
+                            <li class="nav-item me-5">
+                            <a class="nav-link" href="promo.html">promo</a>
+                            </li>
+                            <li class="nav-item me-5">
+                            <a class="nav-link active" href="keranjang.html"><i class="bi bi-cart"></i> keranjang</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="container-fluid py-5">
+                <div class="container">
+                    <h2 class="text-center my-5">Keranjang Belanja</h2>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <tr>
+                                <th>#</th>
+                                <th>Pesanan</th>
+                                <th>Harga</th>
+                                <th>Jumlah</th>
+                                <th>Total</th>
+                            </tr>
+                            <tr style="vertical-align: middle;">
+                                <td>
+                                    <a href="src/img/Bakmie Goreng.jfif" data-lightbox="gallery" data-title="Goreng">
+                                        <img src="src/img/Bakmie Goreng.jfif" alt="" width="150px" class="img-thumbnail d-sm-block d-none">
+                                        <label class="d-block d-sm-none">Bakmie Goreng</label>
+                                    </a>
+                                </td>
+                                <td>Bakmie Goreng</td>
+                                <td>Rp. 28.000</td>
+                                <td>3</td>
+                                <td>Rp. 84.000</td>
+                            </tr>
+                            <tr style="vertical-align: middle;">
+                                <td>
+                                    <a href="src/img/bakmie godhog.jfif" data-lightbox="gallery" data-title="Godhog">
+                                        <img src="src/img/bakmie godhog.jfif" alt="" width="150px" class="img-thumbnail d-sm-block d-none">
+                                        <label class="d-block d-sm-none">Bakmie Godhog</label>
+                                    </a>
+                                </td>
+                                <td>Bakmie Godhog</td>
+                                <td>Rp. 25.000</td>
+                                <td>4</td>
+                                <td>Rp. 100.000</td>
+                            </tr>
+                            <tr>
+                                <th colspan="4">Total:</th>
+                                <th>Rp. 184.000</th>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                    <button class="btn btn-warning text-light">Checkout</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid py-5 footer">
+                <div class="container">
+
+
+                    <h5 class="text-center text-light mb-3">Ikuti Kami</h5>
+
+                    <div class="d-flex justify-content-center mb-5" style="gap: 70px">
+                        <a href="https://www.facebook.com/username" target="_blank" class="social-icon">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/manutd?igsh=YnZyNWpkZW1kNDBh" target="_blank" class="social-icon">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="https://x.com/username" target="_blank" class="social-icon">
+                            <i class="bi bi-twitter-x"></i>
+                        </a>
+                        <a href="https://youtube.com/@attahalilintar?si=9Q_VtwLdFiXfuBfG" target="_blank" class="social-icon">
+                            <i class="bi bi-youtube"></i>
+                        </a>
+                    </div>
+
+                    <!-- Subscribe -->
+                    <h5 class="text-center text-light mb-1">Subscribe</h5>
+                    <p class="text-center text-white mb-3">Untuk informasi tentang promo dan penawaran spesial !</p>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-6">
+                            <div class="input-group">
+                                <input type="email" class="form-control" placeholder="Ketikkan Email">
+                                <button class="btn btn-warning text-light">Subscribe</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <footer class="bg-dark text-light py-4">
+                <div class="container">
+
+                    <div class="row text-center text-md-start">
+
+                        <div class="col-md-4 mb-3 mb-md-0">
+                            <h5 class="fw-bold">BakJaw</h5>
+                            <p class="text-text-white small">Tempat makan enak, nyaman, dan terjangkau untuk semua kalangan.</p>
+                        </div>
+
+                        <div class="col-md-4 mb-3 mb-md-0">
+                            <h6 class="fw-bold mb-3">Navigasi</h6>
+                            <ul class="list-unstyled">
+                                <li><a href="Frontend-Bootstrap.html" class="text-white text-decoration-none">index</a></li>
+                                <li><a href="Product.html" class="text-white text-decoration-none">produk</a></li>
+                                <li><a href="Promo.html" class="text-white text-decoration-none">promo</a></li>
+                                <li><a href="Cart.html" class="text-white text-decoration-none">keranjang</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-4">
+                            <h6 class="fw-bold mb-3">MUSANKINK</h6>
+                            <ul class="list-unstyled text-white small">
+                                <li class="mb-1"><i class="bi bi-geo-alt-fill me-2"></i>Jl. Kerajaan Pulorejo RT.05 RW.01</li>
+                                <li class="mb-1"><i class="bi bi-telephone-fill me-2"></i>0888 1927 1945</li>
+                                <li><i class="bi bi-envelope-fill me-2"></i>info@BJR.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr class="border-secondary mt-4 mb-3">
+                    <p class="text-center text-white small mb-0">
+                        &copy; 2023 Kerajaan Pulorejo aman sejahtera. Kebebasan berkuliner.
+                    </p>
+                </div>
+            </footer>
+
+
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+            <script src="/dist/js/lightbox-plus-jquery.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        </body>
+    </html>
